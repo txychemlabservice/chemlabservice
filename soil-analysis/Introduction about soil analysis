@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soil Analysis: An Introduction to Laboratory Methods — Chem Lab Service</title>
+  <meta name="description" content="An overview of soil laboratory analysis covering sampling, 2 mm sieving, Mehlich-3 extraction, EPA 3050B digestion, ICP-OES/FAAS instrumentation, and quality control.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Chem Lab Service</a>
+    <p class="tagline">Technical Research Articles, Analytical Workflows &amp; Instrumentation Guides</p>
+  </header>
+
+  <nav class="breadcrumbs">
+    <a href="../index.html">Home</a> &gt; 
+    <a href="index.html">Soil Analysis</a> &gt; 
+    <span>Part 1</span>
+  </nav>
+
+  <article>
+    <h1>Soil Analysis: An Introduction to Laboratory Methods</h1>
+    <div class="meta">Series: Soil Analysis Laboratory • Part 1 • Published: November 2026</div>
+
+    <p>Soil analysis is the systematic chemical, physical, and biological examination of soil samples to determine their composition, fertility, and environmental quality. It supports agriculture, environmental monitoring, construction, and geochemical research. A reliable soil analysis begins with correct sampling and ends with validated instrumental measurement.</p>
+
+    <h2>1. Sampling and Preparation</h2>
+    <p>Representative sampling is the foundation of every reliable result. A field is typically divided into uniform zones, and multiple sub-samples are collected from each zone using a stainless-steel auger or corer. These sub-samples are combined into a composite sample, which is then air-dried at &le; 40 &deg;C to preserve labile constituents.</p>
+    <p>After drying, the soil is disaggregated and passed through a 2 mm stainless-steel sieve. Material retained on the sieve (gravel, roots, debris) is recorded and discarded. A separate portion is dried at 105 &deg;C to determine the moisture factor, allowing results to be reported on an oven-dry basis.</p>
+
+    <h2>2. Chemical Extraction and Digestion</h2>
+    <p>Different analytical questions require different preparation methods:</p>
+    <ul>
+      <li><strong>Plant-available nutrients</strong> are extracted with mild reagents. The Mehlich-3 extraction, for example, uses acetic acid, ammonium nitrate, ammonium fluoride, nitric acid, and EDTA to estimate available phosphorus, potassium, calcium, magnesium, and micronutrients.</li>
+      <li><strong>Environmental metals</strong> are assessed by acid digestion. EPA Method 3050B uses concentrated nitric acid and hydrogen peroxide at approximately 95 &deg;C to release environmentally available trace and heavy metals.</li>
+      <li><strong>Soil pH and electrical conductivity (EC)</strong> are measured in a 1:2 soil-to-water suspension using calibrated pH and EC meters.</li>
+    </ul>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Preparation / Method</th>
+            <th>Reagents &amp; Conditions</th>
+            <th>Target Analytes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mehlich-3 Extraction</td>
+            <td>Acetic acid, NH<sub>4</sub>NO<sub>3</sub>, NH<sub>4</sub>F, HNO<sub>3</sub>, EDTA</td>
+            <td>Plant-available P, K, Ca, Mg, and micronutrients</td>
+          </tr>
+          <tr>
+            <td>EPA Method 3050B</td>
+            <td>Concentrated HNO<sub>3</sub> + H<sub>2</sub>O<sub>2</sub> (~95 &deg;C)</td>
+            <td>Environmentally available trace and heavy metals</td>
+          </tr>
+          <tr>
+            <td>1:2 Water Suspension</td>
+            <td>Deionized water (1:2 soil-to-water ratio)</td>
+            <td>Soil pH and electrical conductivity (EC)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>3. Instrumental Analysis</h2>
+    <p>Extracts and digests are analyzed by spectroscopic techniques. Inductively coupled plasma optical emission spectrometry (ICP-OES) is widely used for multi-element determination because of its sensitivity and wide linear range. Flame atomic absorption spectroscopy (FAAS) remains common for single-element measurements. Ion chromatography and spectrophotometry are used for anions such as nitrate, sulfate, and phosphate. Organic contaminants are typically analyzed by gas chromatography–mass spectrometry (GC-MS) or liquid chromatography–mass spectrometry (LC-MS).</p>
+
+    <h2>4. Quality Control</h2>
+    <p>No analytical result is trustworthy without quality control. Laboratories routinely include method blanks, duplicate sub-samples, matrix spikes, and certified reference materials (CRMs). Recovery rates for CRMs should typically fall within 80–120% of certified values. Calibration curves must be verified with independent check standards, and results should be reported with appropriate uncertainty.</p>
+
+    <h2>5. Interpretation and Reporting</h2>
+    <p>Soil data must be interpreted in context. Nutrient levels are compared with crop-specific guidelines, while metal concentrations are evaluated against regulatory thresholds such as those set by environmental agencies. Results are reported on a dry-weight basis with clear units (e.g., mg/kg, cmol(+)/kg) and accompanied by method references and detection limits.</p>
+
+    <h2>Conclusion</h2>
+    <p>Soil analysis combines careful field sampling, controlled laboratory preparation, and validated instrumental measurement. Each step influences the final result, and strict quality control is essential. Whether the goal is optimizing crop nutrition or assessing environmental risk, a well-designed soil analysis program provides the reliable data on which sound decisions depend.</p>
+  </article>
+
+  <div class="article-footer">
+    <a href="index.html">&larr; Back to Soil Analysis Series</a>
+    <span class="muted">Part 2 Coming Soon &rarr;</span>
+  </div>
+</body>
+</html>
